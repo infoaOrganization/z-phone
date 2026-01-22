@@ -1,3 +1,8 @@
+/build/
+/tmp/
+/html/
+
+
 # Logs
 logs
 *.log
