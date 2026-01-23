@@ -8,28 +8,30 @@ const dateNumber = dateNow.getDate();
 const hour = dateNow.getHours();
 const minute = dateNow.getMinutes();
 let day = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
+  // "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+  "일요일",
+  "월요일",
+  "화요일",
+  "수요일",
+  "목요일",
+  "금요일",
+  "토요일",
 ][new Date().getDay()];
 
 const month = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
+  // "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+  "1월",
+  "2월",
+  "3월",
+  "4월",
+  "5월",
+  "6월",
+  "7월",
+  "8월",
+  "9월",
+  "10월",
+  "11월",
+  "12월",
 ][new Date().getMonth()];
 
 const LockScreenComponent = ({ isShow }) => {

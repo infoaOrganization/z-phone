@@ -150,11 +150,13 @@ const MessageChattingComponent = ({ isShow }) => {
         <div className="flex flex-col justify-center h-full w-full px-5">
           <div className="flex flex-col space-y-2 bg-slate-600 w-full rounded p-3">
             <span className="text-white text-sm font-semibold">
-              Delete message?
+              {/* Delete message? */}
+              메시지를 삭제하시겠습니까?
             </span>
             <span className="text-white text-sm">
               {deleteMessage?.msg?.message == ""
-                ? "Media"
+                // ? "Media"
+                ? "미디어"
                 : deleteMessage?.msg?.message}
             </span>
             <div className="flex justify-end space-x-4">

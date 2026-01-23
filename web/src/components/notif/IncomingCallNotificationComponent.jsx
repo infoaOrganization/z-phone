@@ -66,7 +66,8 @@ const IncomingCallNotificationComponent = ({ isShow }) => {
                   {notificationCall.from}
                 </span>
                 <span className="text-xs text-gray-300 line-clamp-1">
-                  mobile
+                  {/* mobile */}
+                  휴대전화
                 </span>
               </div>
             </div>
@@ -95,7 +96,8 @@ const IncomingCallNotificationComponent = ({ isShow }) => {
               >
                 <MdCallEnd className="text-3xl" />
               </button>
-              <span className="text-white text-xs">Decline</span>
+              {/* <span className="text-white text-xs">Decline</span> */}
+              <span className="text-white text-xs">거절</span>
             </div>
             <div className="flex flex-col space-y-2 items-center">
               <button
@@ -129,7 +131,8 @@ const IncomingCallNotificationComponent = ({ isShow }) => {
               >
                 <MdCall className="text-3xl" />
               </button>
-              <span className="text-white text-xs">Accept</span>
+              {/* <span className="text-white text-xs">Accept</span> */}
+              <span className="text-white text-xs">수락</span>
             </div>
           </div>
         </div>

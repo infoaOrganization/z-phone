@@ -105,7 +105,8 @@ const ServicesComponent = ({ isShow }) => {
                           value={formDataMessage.message}
                           name="message"
                           onChange={handleMessageFormChange}
-                          placeholder="Message for a service"
+                          // placeholder="Message for a service"
+                          placeholder="서비스에 보낼 메시지"
                           rows={4}
                           className="bg-black focus:outline-none text-white w-full text-xs resize-none no-scrollbar bg-slate-800 p-3 rounded-lg"
                         ></textarea>
@@ -115,7 +116,8 @@ const ServicesComponent = ({ isShow }) => {
                           className="flex font-medium rounded-full text-white bg-blue-500 px-3 py-1 text-sm items-center justify-center"
                           type="submit"
                         >
-                          <span>Send</span>
+                          {/* <span>Send</span> */}
+                          <span>전송</span>
                         </button>
                       </div>
                     </div>
@@ -131,7 +133,8 @@ const ServicesComponent = ({ isShow }) => {
               onClick={() => setMenu(MENU_DEFAULT)}
             >
               <MdArrowBackIosNew className="text-lg" />
-              <span className="text-xs">Back</span>
+              {/* <span className="text-xs">Back</span> */}
+              <span className="text-xs">뒤로</span>
             </div>
             <span className="absolute left-0 right-0 m-auto text-sm text-white w-fit">
               {/* Services */}
@@ -153,10 +156,12 @@ const ServicesComponent = ({ isShow }) => {
           >
             <div className="flex flex-col -mt-1 pb-2 px-2 absolute bg-black z-10">
               <div className="text-lg font-semibold text-white">
-                {NAME} Services
+                {/* {NAME} Services */}
+                {NAME} 서비스
               </div>
               <div className="text-xs text-gray-200">
-                You can access {NAME} City's Services anytime and anywhere.
+                {/* You can access {NAME} City's Services anytime and anywhere. */}
+                언제 어디서나 {NAME} 시티의 서비스를 이용하실 수 있습니다.
               </div>
             </div>
             {services == undefined ? (
@@ -203,7 +208,8 @@ const ServicesComponent = ({ isShow }) => {
                         }}
                       >
                         <span className="text-sm font-medium text-white">
-                          Message
+                          {/* Message */}
+                          메시지
                         </span>
                       </div>
                     </div>
@@ -251,7 +257,8 @@ const ServicesComponent = ({ isShow }) => {
                         <textarea
                           value={ackReport.message}
                           name="message"
-                          placeholder="Message for a service"
+                          // placeholder="Message for a service"
+                          placeholder="서비스 요청 메시지"
                           rows={5}
                           className="bg-black focus:outline-none text-white w-full text-xs resize-none no-scrollbar bg-slate-800 px-3 py-2 rounded-lg"
                           readOnly
@@ -259,7 +266,8 @@ const ServicesComponent = ({ isShow }) => {
                       </span>
                     </div>
                     <input
-                      placeholder="(REQUIRED) reason why it's solved"
+                      // placeholder="(REQUIRED) reason why it's solved"
+                      placeholder="(필수) 해결 사유를 입력하세요"
                       className="bg-black focus:outline-none text-white w-full text-xs resize-none no-scrollbar bg-slate-800 px-3 py-2 rounded-lg"
                       onChange={(e) => {
                         const { value } = e.target;
@@ -297,7 +305,8 @@ const ServicesComponent = ({ isShow }) => {
                             .finally(function () {});
                         }}
                       >
-                        Solved
+                        {/* Solved */}
+                        해결됨
                       </button>
                       <button
                         className="px-2 py-1 text-white text-xs bg-yellow-500 hover:bg-yellow-600 text-center rounded"
@@ -319,7 +328,8 @@ const ServicesComponent = ({ isShow }) => {
                             .finally(function () {});
                         }}
                       >
-                        Message
+                        {/* Message */}
+                        메시지
                       </button>
                     </div>
                   </div>
@@ -333,7 +343,8 @@ const ServicesComponent = ({ isShow }) => {
               onClick={() => setSubMenu("list")}
             >
               <MdArrowBackIosNew className="text-lg" />
-              <span className="text-xs">Back</span>
+              {/* <span className="text-xs">Back</span> */}
+              <span className="text-xs">뒤로</span>
             </div>
             <span className="absolute left-0 right-0 m-auto text-sm text-white w-fit">
               {/* Services */}

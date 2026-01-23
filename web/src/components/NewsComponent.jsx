@@ -409,10 +409,12 @@ const NewsComponent = ({ isShow }) => {
             className="flex flex-col space-y-2 mb-14"
             onSubmit={handleSubmitFormPost}
           >
-            <span className="text-lg text-white">Create News</span>
+            {/* <span className="text-lg text-white">Create News</span> */}
+            <span className="text-lg text-white">뉴스 작성</span>
             <input
               type="text"
-              placeholder="Title"
+              // placeholder="Title"
+              placeholder="제목"
               className="w-full text-sm text-white flex-1 bg-gray-900 focus:outline-none rounded-lg pl-2 pr-1 py-1"
               autoComplete="off"
               name="title"

@@ -91,7 +91,7 @@ const CameraComponent = ({ isShow }) => {
         }}
       >
         <div className="pt-5 flex justify-center text-sm">
-          Photos can check on gallery!
+          사진이 갤러리에 저장되었습니다.
         </div>
       </div>
     </div>

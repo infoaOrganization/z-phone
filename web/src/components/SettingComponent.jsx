@@ -123,10 +123,12 @@ const SettingComponent = ({ isShow }) => {
           onClick={() => setMenu(MENU_DEFAULT)}
         >
           <MdArrowBackIosNew className="text-lg" />
-          <span className="text-xs">Back</span>
+          {/* <span className="text-xs">Back</span> */}
+          <span className="text-xs">뒤로</span>
         </div>
         <span className="absolute left-0 right-0 m-auto text-sm text-white w-fit">
-          Setting
+          {/* Setting */}
+          설정
         </span>
         <div className="flex items-center px-2 text-blue-500">
           {/* <MdEdit className='text-lg' /> */}
@@ -162,7 +164,8 @@ const SettingComponent = ({ isShow }) => {
             </div>
             <div className="flex w-full justify-between items-center space-x-3 border-b border-gray-800 pb-1.5 mb-1.5">
               <span className="text-sm font-light line-clamp-1">
-                Anonim Number
+                {/* Anonim Number */}
+                발신번호표시제한 사용
               </span>
               <div className="flex items-center justify-center">
                 <div className="relative inline-block align-middle select-none">
@@ -197,7 +200,8 @@ const SettingComponent = ({ isShow }) => {
             </div>
             <div className="flex w-full justify-between items-center space-x-3 border-b border-gray-800 pb-1.5 mb-1.5">
               <span className="text-sm font-light line-clamp-1">
-                Do Not Disturb
+                {/* Do Not Disturb */}
+                방해 금지 설정
               </span>
               <div className="flex items-center justify-center">
                 <div className="relative inline-block align-middle select-none">
@@ -233,7 +237,8 @@ const SettingComponent = ({ isShow }) => {
             <div className="flex w-full justify-between items-center space-x-2 border-b border-gray-800 pb-1.5 mb-1.5">
               <input
                 type="text"
-                placeholder="URL avatar"
+                // placeholder="URL avatar"
+                placeholder="프로필 사진 URL"
                 className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none rounded-md px-2 py-1 bg-[#3B3B3B]"
                 autoComplete="off"
                 value={avatar}
@@ -248,7 +253,8 @@ const SettingComponent = ({ isShow }) => {
                   type="button"
                   onClick={() => saveSetting("avatar")}
                 >
-                  <span>SAVE</span>
+                  {/* <span>SAVE</span> */}
+                  <span>저장</span>
                 </button>
               </div>
             </div>
@@ -262,7 +268,8 @@ const SettingComponent = ({ isShow }) => {
             <div className="flex w-full justify-between items-center space-x-2 border-b border-gray-800 pb-1.5 mb-1.5">
               <input
                 type="text"
-                placeholder="URL wallpaper"
+                // placeholder="URL wallpaper"
+                placeholder="배경화면 URL"
                 className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none rounded-md px-2 py-1 bg-[#3B3B3B]"
                 autoComplete="off"
                 value={wallpaper}
@@ -277,7 +284,8 @@ const SettingComponent = ({ isShow }) => {
                   type="button"
                   onClick={() => saveSetting("wallpaper")}
                 >
-                  <span>SAVE</span>
+                  {/* <span>SAVE</span> */}
+                  <span>저장</span>
                 </button>
               </div>
             </div>
@@ -290,7 +298,8 @@ const SettingComponent = ({ isShow }) => {
             </div>
             <div className="flex w-full justify-between items-center space-x-2 border-b border-gray-800 pb-1.5 mb-1.5">
               <select
-                placeholder="Choose frame"
+                // placeholder="Choose frame"
+                placeholder="프레임 선택"
                 className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none rounded-md px-2 py-1 bg-[#3B3B3B]"
                 onChange={(e) => {
                   const { value } = e.target;
@@ -305,13 +314,15 @@ const SettingComponent = ({ isShow }) => {
                   if (v == frame) {
                     return (
                       <option key={i} value={v} selected>
-                        Frame {v}
+                        {/* Frame {v} */}
+                        프레임 {v}
                       </option>
                     );
                   } else {
                     return (
                       <option key={i} value={v}>
-                        Frame {v}
+                        {/* Frame {v} */}
+                        프레임 {v}
                       </option>
                     );
                   }
@@ -323,7 +334,8 @@ const SettingComponent = ({ isShow }) => {
                   type="button"
                   onClick={() => saveSetting("frame")}
                 >
-                  <span>SAVE</span>
+                  {/* <span>SAVE</span> */}
+                  <span>저장</span>
                 </button>
               </div>
             </div>
@@ -351,7 +363,8 @@ const SettingComponent = ({ isShow }) => {
                   type="button"
                   onClick={() => saveSetting("phone_height")}
                 >
-                  <span>SAVE</span>
+                  {/* <span>SAVE</span> */}
+                  <span>저장</span>
                 </button>
               </div>
             </div>

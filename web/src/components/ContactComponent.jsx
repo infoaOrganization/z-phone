@@ -102,13 +102,15 @@ const ContactComponent = ({ isShow }) => {
             <form onSubmit={handleEditSubmit} className="w-full">
               <div className="flex flex-col gap-1 py-2 text-xs">
                 <span className="flex justify-between items-center text-sm">
-                  <span>Name:</span>
+                  {/* <span>Name:</span> */}
+                  <span>이름:</span>
                   <span>
                     <input
                       name="name"
                       value={formEdit?.name}
                       className="border-b w-full font-medium focus:outline-none bg-slate-700"
-                      placeholder="John"
+                      // placeholder="John"
+                      placeholder="홍길동"
                       onChange={handleEdit}
                       autoComplete="off"
                       required
@@ -187,7 +189,8 @@ const ContactComponent = ({ isShow }) => {
               </div>
               <input
                 type="text"
-                placeholder="Search..."
+                // placeholder="Search..."
+                placeholder="검색..."
                 className="text-sm w-full text-white flex-1 border border-gray-700 focus:outline-none rounded-full px-2 py-1 pl-8 bg-[#3B3B3B]"
                 autoComplete="off"
                 onKeyUp={(e) => {

@@ -649,7 +649,8 @@ const LoopsProfileComponent = ({
                     <div className="flex w-full justify-between items-center space-x-2 pb-1.5 mb-1.5">
                       <input
                         type="text"
-                        placeholder="Fullname"
+                        // placeholder="Fullname"
+                        placeholder="이름"
                         className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none rounded-md px-2 py-1 bg-[#3B3B3B]"
                         autoComplete="off"
                         name="fullname"
@@ -668,7 +669,8 @@ const LoopsProfileComponent = ({
                     <div className="flex w-full justify-between items-center space-x-2 pb-1.5 mb-1.5">
                       <input
                         type="text"
-                        placeholder="Phone number"
+                        // placeholder="Phone number"
+                        placeholder="전화번호"
                         className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none rounded-md px-2 py-1 bg-[#3B3B3B]"
                         autoComplete="off"
                         name="phone_number"
@@ -686,7 +688,8 @@ const LoopsProfileComponent = ({
                     </div>
                     <div className="flex w-full justify-between items-center space-x-2 pb-1.5 mb-1.5">
                       <textarea
-                        placeholder="Bio"
+                        // placeholder="Bio"
+                        placeholder="소개"
                         className="w-full text-xs text-white flex-1 border border-gray-700 focus:outline-none resize-none no-scrollbar rounded-md px-2 py-1 bg-[#3B3B3B]"
                         autoComplete="off"
                         name="bio"

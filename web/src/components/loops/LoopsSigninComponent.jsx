@@ -122,7 +122,8 @@ const LoopsSigninComponent = ({ isShow, setSubMenu }) => {
               >
                 <input
                   type="text"
-                  placeholder="Username"
+                  // placeholder="Username"
+                  placeholder="사용자명"
                   className="w-full text-sm text-white flex-1 border border-gray-600 bg-black focus:outline-none rounded-xl pl-4 pr-1 py-2"
                   autoComplete="off"
                   required
@@ -132,7 +133,8 @@ const LoopsSigninComponent = ({ isShow, setSubMenu }) => {
                 />
                 <input
                   type="password"
-                  placeholder="Password"
+                  // placeholder="Password"
+                  placeholder="비밀번호"
                   className="w-full text-sm text-white flex-1 border border-gray-600 bg-black focus:outline-none rounded-xl pl-4 pr-1 py-2"
                   autoComplete="off"
                   required

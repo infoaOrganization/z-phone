@@ -200,7 +200,8 @@ const LoopsDetailComponent = ({
                   <input
                     type="text"
                     className="bg-black text-xs font-medium w-full focus:outline-none text-white ml-2"
-                    placeholder="Comment"
+                    // placeholder="Comment"
+                    placeholder="댓글"
                     autoComplete="off"
                     name="comment"
                     value={formData.comment}

@@ -129,12 +129,14 @@ const PhoneComponent = ({ isShow }) => {
             <form onSubmit={handlePhoneFormSubmit} className="w-full">
               <div className="flex flex-col gap-1 py-2 text-xs">
                 <span className="flex justify-between items-center">
-                  <span>Name:</span>
+                  {/* <span>Name:</span> */}
+                  <span>이름:</span>
                   <span>
                     <input
                       name="name"
                       className="border-b w-36 text-base font-medium focus:outline-none bg-slate-700"
-                      placeholder="John"
+                      // placeholder="John"
+                      placeholder="홍길동"
                       onChange={handlePhoneFormChange}
                       autoComplete="off"
                       value={formDataNew.name}
@@ -143,7 +145,8 @@ const PhoneComponent = ({ isShow }) => {
                   </span>
                 </span>
                 <span className="flex justify-between items-center">
-                  <span>Number:</span>
+                  {/* <span>Number:</span> */}
+                  <span>전화번호:</span>
                   <span>
                     <input
                       name="phone"
@@ -204,7 +207,8 @@ const PhoneComponent = ({ isShow }) => {
               </div>
               <input
                 type="text"
-                placeholder="Search..."
+                // placeholder="Search..."
+                placeholder="검색..."
                 autoComplete="off"
                 className="text-sm w-full text-white flex-1 border border-gray-700 focus:outline-none rounded-full px-2 py-1 pl-8 bg-[#3B3B3B]"
               />
@@ -236,8 +240,10 @@ const PhoneComponent = ({ isShow }) => {
                           {!v.is_anonim
                             ? v.to_person
                             : v.flag == "OUT"
-                            ? "(as anonim) " + v.to_person
-                            : "Anonim"}
+                            // ? "(as anonim) " + v.to_person
+                            // : "Anonim"}
+                            ? "(익명) " + v.to_person
+                            : "익명"}
                         </span>
                         <span className="text-xs text-gray-400">
                           {v.created_at}
@@ -274,7 +280,8 @@ const PhoneComponent = ({ isShow }) => {
               </div>
               <input
                 type="text"
-                placeholder="Search..."
+                // placeholder="Search..."
+                placeholder="검색..."
                 autoComplete="off"
                 className="text-sm w-full text-white flex-1 border border-gray-700 focus:outline-none rounded-full px-2 py-1 pl-8 bg-[#3B3B3B]"
               />

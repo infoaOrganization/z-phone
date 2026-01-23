@@ -176,18 +176,23 @@ const HouseComponent = ({ isShow }) => {
                   </div>
                   <div className="flex flex-col gap-1 text-xs">
                     <span className="flex justify-between">
-                      <span className="text-gray-200">Tier:</span>
+                      {/* <span className="text-gray-200">Tier:</span> */}
+                      <span className="text-gray-200">등급:</span>
                       <span>{v.tier}</span>
                     </span>
                     <span className="flex justify-between">
-                      <span className="text-gray-200">Keyholders:</span>
+                      {/* <span className="text-gray-200">Keyholders:</span> */}
+                      <span className="text-gray-200">열쇠 소지자:</span>
                       <span className="truncate">
-                        {v.keyholders.length} Keys
+                        {/* {v.keyholders.length} Keys */}
+                        {v.keyholders.length} 명
                       </span>
                     </span>
                     <span className="flex justify-between">
-                      <span className="text-gray-100">Garage:</span>
-                      <span>{v.is_has_garage ? "Yes" : "No"}</span>
+                      {/* <span className="text-gray-100">Garage:</span> */}
+                      <span className="text-gray-100">차고:</span>
+                      {/* <span>{v.is_has_garage ? "Yes" : "No"}</span> */}
+                      <span>{v.is_has_garage ? "있음" : "없음"}</span>
                     </span>
                   </div>
                 </div>
@@ -195,16 +200,22 @@ const HouseComponent = ({ isShow }) => {
                 <div className="px-6 pt-4 pb-2">
                   <div className="flex flex-col gap-1 text-xs">
                     <span className="flex justify-between">
-                      <span className="text-gray-100">House Locked:</span>
-                      <span>{v.is_house_locked ? "Yes" : "No"}</span>
+                      {/* <span className="text-gray-100">House Locked:</span> */}
+                      <span className="text-gray-100">집 잠금:</span>
+                      {/* <span>{v.is_house_locked ? "Yes" : "No"}</span> */}
+                      <span>{v.is_house_locked ? "잠김" : "열림"}</span>
                     </span>
                     <span className="flex justify-between">
-                      <span className="text-gray-100">Garage Locked:</span>
-                      <span>{v.is_garage_locked ? "Yes" : "No"}</span>
+                      {/* <span className="text-gray-100">Garage Locked:</span> */}
+                      <span className="text-gray-100">차고 잠금:</span>
+                      {/* <span>{v.is_garage_locked ? "Yes" : "No"}</span> */}
+                      <span>{v.is_garage_locked ? "잠김" : "열림"}</span>
                     </span>
                     <span className="flex justify-between">
-                      <span className="text-gray-200">Stash Locked:</span>
-                      <span>{v.is_stash_locked ? "Yes" : "No"}</span>
+                      {/* <span className="text-gray-200">Stash Locked:</span> */}
+                      <span className="text-gray-200">창고 잠금:</span>
+                      {/* <span>{v.is_stash_locked ? "Yes" : "No"}</span> */}
+                      <span>{v.is_stash_locked ? "잠김" : "열림"}</span>
                     </span>
                   </div>
                 </div>

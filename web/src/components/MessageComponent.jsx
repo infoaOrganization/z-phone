@@ -139,7 +139,8 @@ const MessageComponent = ({ isShow }) => {
             </div>
             <input
               type="text"
-              placeholder="Group Name"
+              // placeholder="Group Name"
+              placeholder="그룹 이름"
               className="w-full text-sm text-white flex-1 border border-slate-600 bg-slate-800 focus:outline-none rounded pl-2 pr-1 py-2.5"
               autoComplete="off"
               name="name"

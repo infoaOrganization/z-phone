@@ -90,7 +90,8 @@ const InetMaxComponent = ({ isShow }) => {
                 fontSize: "15px",
                 showAlways: true,
                 show: true,
-                label: "Data Usage",
+                // label: "Data Usage",
+                label: "데이터 사용량",
                 color: "#FFFFFF",
                 fontFamily: "Inter, sans-serif",
                 formatter: function (w) {
