@@ -1,6 +1,6 @@
 {
   "name": "Kota V",
-  "timezone": "Asia/Jakarta",
+  "timezone": "Asia/Seoul",
   "logo": "./images/kota-v.png",
   "LATEST_NEWS": {
     "AUTHOR": "닷핵",
@@ -32,14 +32,9 @@
   },
   "SERVICES": {
     "ALLOWED_JOBS": [
-      // "goverment",
       "police",
       "ambulance",
       "mechanic"
-      // "realestate",
-      // "taxi",
-      // "burgershot",
-      // "kfc"
     ]
   },
   "WALLET": {

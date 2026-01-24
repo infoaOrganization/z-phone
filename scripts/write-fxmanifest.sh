@@ -11,17 +11,17 @@ game 'gta5'
 ui_page 'html/index.html'
 
 client_scripts {
-	"client/**",
+	'client/**',
 }
 
 server_scripts {
-  	"@oxmysql/lib/MySQL.lua",
-	"server/**",
+  	'@oxmysql/lib/MySQL.lua',
+	'server/**',
 }
 
 shared_scripts {
-  	"@ox_lib/init.lua",
-	"config/**",
+  	'@ox_lib/init.lua',
+	'config/**',
 }
 
 files {"
