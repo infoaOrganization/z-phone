@@ -1,12 +1,12 @@
 {
   "name": "Kota V",
-  "timezone": "Asia/Jakarta",
+  "timezone": "Asia/Seoul",
   "logo": "./images/kota-v.png",
   "LATEST_NEWS": {
-    "AUTHOR": "Reporter",
-    "IMG_URL": "https://i.ytimg.com/vi/0GZKDlppO2g/maxresdefault.jpg",
-    "content": "In an alarming turn of events, Los Santos has seen a dramatic rise in criminal activity over the past week, leaving residents and law enforcement on high alert.",
-    "more_updates": "Please come to the reporter's office and stay tuned for updates as this story develops."
+    "AUTHOR": "닷핵",
+    "IMG_URL": "https://aura-rp.com/cdn/images/image_20260123_112920.png",
+    "content": "아우라시티에서 복주머니를 줍고 최신 맥북, 애플워치, 에어팟 등의 상품을 받아가세요!",
+    "more_updates": "아우라시티 디스코드에서 자세한 정보를 확인하세요!"
   },
   "INETMAX": {
     "IS_DISABLE_TOPUP": false,
@@ -28,114 +28,102 @@
     ]
   },
   "NEWS": {
-    "ALLOWED_JOBS": ["reporter", "government", "ambulance"]
+    "ALLOWED_JOBS": ["sheriff"]
   },
   "SERVICES": {
     "ALLOWED_JOBS": [
-      "goverment",
       "police",
       "ambulance",
-      "realestate",
-      "taxi",
-      "burgershot",
-      "kfc"
+      "mechanic"
     ]
   },
   "WALLET": {
     "MIN_TRANSFER": 20000
   },
   "APPS": {
-    "MENU_INTERNET_DATA": "InetMax",
-    "MENU_LOCKSCREEN": "Lockscreen",
-    "MENU_GARAGE": "Garage",
-    "MENU_EMAIL": "Email",
-    "MENU_ADS": "Ads",
-    "MENU_BANK": "Wallet",
-    "MENU_HOUSE": "Houses",
-    "MENU_SERVICE": "Services",
-    "MENU_CAMERA": "Camera",
-    "MENU_GALLERY": "Photos",
-    "MENU_RACE": "Race",
-    "MENU_PHONE": "Phone",
-    "MENU_MESSAGE": "Message",
-    "MENU_LOOPS": "Loops",
-    "MENU_SETTING": "Setting",
-    "MENU_CONTACT": "Contact",
-    "MENU_DEFAULT": "Home",
-    "MENU_LOVY": "Lovy",
-    "MENU_PLAYTV": "Play TV",
-    "MENU_MESSAGE_CHATTING": "Chatting",
-    "MENU_EMAIL_DETAIL": "Email Detail",
-    "MENU_INCOMING_CALL_NOTIFICATION": "Incoming Call",
-    "MENU_START_CALL_NOTIFICATION": "Calling...",
-    "MENU_NEW_MESSAGE_NOTIFICATION": "New Message",
-    "MENU_INCALL": "In Call",
-    "MENU_NEWS": "News",
-    "MENU_NEW_NEWS_NOTIFICATION": "Reporter News",
-    "MENU_INTERNAL_NOTIFICATION": "Notification"
+    "MENU_INTERNET_DATA": "아이넷맥스",
+    "MENU_LOCKSCREEN": "잠금화면",
+    "MENU_GARAGE": "차고",
+    "MENU_EMAIL": "이메일",
+    "MENU_ADS": "광고",
+    "MENU_BANK": "지갑",
+    "MENU_HOUSE": "부동산",
+    "MENU_SERVICE": "서비스",
+    "MENU_CAMERA": "카메라",
+    "MENU_GALLERY": "사진",
+    "MENU_RACE": "레이스",
+    "MENU_PHONE": "전화",
+    "MENU_MESSAGE": "메시지",
+    "MENU_LOOPS": "루프",
+    "MENU_SETTING": "설정",
+    "MENU_CONTACT": "연락처",
+    "MENU_DEFAULT": "홈",
+    "MENU_LOVY": "러비",
+    "MENU_PLAYTV": "플레이 TV",
+    "MENU_MESSAGE_CHATTING": "채팅",
+    "MENU_EMAIL_DETAIL": "이메일 상세",
+    "MENU_INCOMING_CALL_NOTIFICATION": "전화 수신 중",
+    "MENU_START_CALL_NOTIFICATION": "전화 거는 중...",
+    "MENU_NEW_MESSAGE_NOTIFICATION": "새 메시지",
+    "MENU_INCALL": "통화 중",
+    "MENU_NEWS": "뉴스",
+    "MENU_NEW_NEWS_NOTIFICATION": "아우라시티 뉴스",
+    "MENU_INTERNAL_NOTIFICATION": "알림"
   },
   "MENUS": [
     {
       "icon": "./images/contact.svg",
-      "label": "Contact"
+      "label": "연락처"
     },
     {
       "icon": "./images/mail.svg",
-      "label": "Email"
+      "label": "이메일"
     },
     {
       "icon": "./images/ads.svg",
-      "label": "Ads"
+      "label": "광고"
     },
     {
       "icon": "./images/services.svg",
-      "label": "Services"
-    },
-    {
-      "icon": "./images/garage.svg",
-      "label": "Garage"
-    },
-    {
-      "icon": "./images/houses.svg",
-      "label": "Houses"
+      "label": "서비스"
     },
     {
       "icon": "./images/wallet.svg",
-      "label": "Wallet"
+      "label": "지갑"
     },
     {
       "icon": "./images/loops.svg",
-      "label": "Loops"
+      "label": "루프"
     },
     {
       "icon": "./images/news.svg",
-      "label": "News"
+      "label": "A.C 뉴스"
     },
     {
       "icon": "./images/gallery.svg",
-      "label": "Photos"
+      "label": "사진"
     },
     {
       "icon": "./images/inetmax.svg",
-      "label": "InetMax"
+      "label": "아이넷맥스"
     }
   ],
   "BOTTOM_MENUS": [
     {
       "icon": "./images/phone.svg",
-      "label": "Phone"
+      "label": "전화"
     },
     {
       "icon": "./images/message.svg",
-      "label": "Message"
+      "label": "메시지"
     },
     {
       "icon": "./images/camera.svg",
-      "label": "Camera"
+      "label": "카메라"
     },
     {
       "icon": "./images/setting.svg",
-      "label": "Setting"
+      "label": "설정"
     }
   ]
 }

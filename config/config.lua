@@ -1,7 +1,7 @@
 Config = {}
 
 Config.Debug = false
-Config.Core = "QBX" -- QB,ESX or QBX
+Config.Core = "ESX" -- QB,ESX or QBX
 Config.OpenPhone = 'M'
 Config.RepeatTimeout = 3000
 Config.CallRepeats = 5
@@ -47,8 +47,10 @@ Config.App = {
     },
 }
 
-Config.MsgNotEnoughInternetData = "Your internet data not enough!"
-Config.MsgSignalZone = "No Signal"
+-- Config.MsgNotEnoughInternetData = "Your internet data not enough!"
+Config.MsgNotEnoughInternetData = "인터넷 데이터가 부족합니다!"
+-- Config.MsgSignalZone = "No Signal"
+Config.MsgSignalZone = "신호 없음"
 
 Config.Signal = {
     IsUse = false,
@@ -83,39 +85,19 @@ Config.Signal = {
 }
 
 Config.Services = {
-    goverment = {
-        job = "goverment",
-        name = "Goverment",
-        type = "General"
-    },
     police = {
         job = "police",
-        name = "Police",
-        type = "General"
+        name = "경찰",
+        type = "치안 서비스"
     },
     ambulance = {
         job = "ambulance",
-        name = "Ambulance",
-        type = "Health"
+        name = "응급구조사",
+        type = "의료 서비스"
     },
-    realestate = {
-        job = "realestate",
-        name = "Real Estate",
-        type = "Property"
-    },
-    taxi = {
-        job = "taxi",
-        name = "Taxi",
-        type = "Transport"
-    },
-    burgershot = {
-        job = "burgershot",
-        name = "Burger Shot",
-        type = "Food"
-    },
-    kfc = {
-        job = "kfc",
-        name = "KFC",
-        type = "Food"
-    },
+    mechanic = {
+        job = "mechanic",
+        name = "정비공",
+        type = "차량 서비스"
+    }
 }

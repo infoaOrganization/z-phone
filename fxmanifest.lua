@@ -4,37 +4,37 @@ game 'gta5'
 ui_page 'html/index.html'
 
 client_scripts {
-	client/**,
+	'client/**',
 }
 
 server_scripts {
-  	@oxmysql/lib/MySQL.lua,
-	server/**,
+  	'@oxmysql/lib/MySQL.lua',
+	'server/**',
 }
 
 shared_scripts {
-  	@ox_lib/init.lua,
-	config/**,
+  	'@ox_lib/init.lua',
+	'config/**',
 }
 
 files {
-    'html/assets/DailyMotion-C2Fpo8rG.js',
-    'html/assets/Facebook-BpN2nuCV.js',
-    'html/assets/FilePlayer-BrYEFj7P.js',
-    'html/assets/howler-m_Qlu3oy.js',
-    'html/assets/index-C9YnOZvp.js',
+    'html/assets/DailyMotion-FYSFWQNd.js',
+    'html/assets/Facebook-Y8tmudXz.js',
+    'html/assets/FilePlayer-GyfqSw01.js',
+    'html/assets/howler-DtwvxYrl.js',
+    'html/assets/index-CU8yUNSo.js',
     'html/assets/index-DrdrNGg2.css',
-    'html/assets/Kaltura-D8jsmjSE.js',
-    'html/assets/Mixcloud-CYQhLzd_.js',
-    'html/assets/Mux-PG0NHnyv.js',
-    'html/assets/Preview-DAJ9Sp09.js',
-    'html/assets/SoundCloud-CisZhrPb.js',
-    'html/assets/Streamable-DJ4ZqHbJ.js',
-    'html/assets/Twitch-Zju_LlY8.js',
-    'html/assets/Vidyard-ZufHdC6B.js',
-    'html/assets/Vimeo-BCh7qPrk.js',
-    'html/assets/Wistia-CQBGTfnE.js',
-    'html/assets/YouTube-CLcqcauq.js',
+    'html/assets/Kaltura-DSWOshGs.js',
+    'html/assets/Mixcloud-DU17my6s.js',
+    'html/assets/Mux-Dq4gFQlw.js',
+    'html/assets/Preview-DaEvL4dz.js',
+    'html/assets/SoundCloud-wdolO9YU.js',
+    'html/assets/Streamable-B0HskmMd.js',
+    'html/assets/Twitch-QJBtqL5W.js',
+    'html/assets/Vidyard-DuOmqOZn.js',
+    'html/assets/Vimeo-DQauItSr.js',
+    'html/assets/Wistia-BoxYH40N.js',
+    'html/assets/YouTube-Bhmpyrba.js',
     'html/frames/1.svg',
     'html/frames/2.svg',
     'html/frames/3.svg',
