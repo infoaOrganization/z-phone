@@ -95,10 +95,6 @@
       "icon": "./images/loops.svg",
       "label": "루프"
     },
-    // {
-    //   "icon": "./images/news.svg",
-    //   "label": "A.C 뉴스"
-    // },
     {
       "icon": "./images/gallery.svg",
       "label": "사진"
@@ -117,10 +113,6 @@
       "icon": "./images/message.svg",
       "label": "메시지"
     },
-    // {
-    //   "icon": "./images/camera.svg",
-    //   "label": "카메라"
-    // },
     {
       "icon": "./images/setting.svg",
       "label": "설정"
