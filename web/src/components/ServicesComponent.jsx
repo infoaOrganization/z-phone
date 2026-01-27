@@ -37,19 +37,23 @@ const ServicesComponent = ({ isShow }) => {
       return;
     }
 
-    formDataMessage.job = service.job;
-    let result = null;
+    const requestData = {
+      message: formDataMessage.message,
+      job: service.job,
+    };
+
     try {
       const response = await axios.post(
         "/send-message-service",
-        formDataMessage
+        requestData
       );
-      result = response.data;
-      setFormDataMessage({
-        message: "",
-      });
-      setIsShowModal(false);
-      setService(null);
+      if (response.data) {
+        setFormDataMessage({
+          message: "",
+        });
+        setIsShowModal(false);
+        setService(null);
+      }
     } catch (error) {
       console.error("error /send-message-service", error);
     }

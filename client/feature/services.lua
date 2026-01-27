@@ -25,6 +25,11 @@ RegisterNUICallback('send-message-service', function(body, cb)
         return
     end
 
+    if not Profile or not Profile.inetmax_balance then
+        cb(false)
+        return
+    end
+
     if Profile.inetmax_balance < Config.App.InetMax.InetMaxUsage.ServicesMessage then
         TriggerEvent("z-phone:client:sendNotifInternal", {
             type = "Notification",
@@ -34,7 +39,7 @@ RegisterNUICallback('send-message-service', function(body, cb)
         cb(false)
         return
     end
-    
+
     lib.callback('z-phone:server:SendMessageService', false, function(isOk)
         TriggerServerEvent("z-phone:server:usage-internet-data", Config.App.Services.Name, Config.App.InetMax.InetMaxUsage.ServicesMessage)
         cb(isOk)
