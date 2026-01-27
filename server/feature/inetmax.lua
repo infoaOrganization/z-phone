@@ -79,7 +79,7 @@ lib.callback.register('z-phone:server:TopupInternetData', function(source, body)
 Thank you for choosing our services! We are pleased to confirm that your purchase of the internet data package has been successful.
 \
 Total: %s \
-Rate : $%s / %sKB \
+Rate : ₩%s / %sKB \
 Status : %s \
 \
 Your data package will be activated shortly, and you’ll receive an email with all the necessary details. If you have any questions or need further assistance, please don't hesitate to reach out.
